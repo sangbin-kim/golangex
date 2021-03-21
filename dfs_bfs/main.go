@@ -1,8 +1,9 @@
 package main
 
 import (
-	"dataStruct"
 	"fmt"
+
+	dataStruct "github.com/sangbin-kim/golangex/dataStruct"
 )
 
 func main() {
@@ -29,4 +30,6 @@ func main() {
 	fmt.Println()
 	tree.DFS2()
 
+	fmt.Println()
+	tree.BFS()
 }
